@@ -1,0 +1,10 @@
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\CarroFacade.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\util\JsfUtil.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\entity\Carro.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\exceptions\IllegalOrphanException.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\AbstractFacade.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\exceptions\NonexistentEntityException.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\CarroJpaController.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\exceptions\RollbackFailureException.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\CarroController.java
+C:\Users\RAFAEL\Documents\NetBeansProjects\Prova\src\main\java\com\prova\prova\controller\exceptions\PreexistingEntityException.java

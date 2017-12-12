@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="CarroViewDlg" widgetVar="CarroViewDialog" modal="true" resizable="false" appendTo="@(body)" header="#{bundle.ViewCarroTitle}">
+            <h:form id="CarroViewForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="2" rendered="#{carroController.selected != null}">
+                        <h:outputText value="#{bundle.ViewCarroLabel_marca}"/>
+                        <h:outputText value="#{carroController.selected.marca}" title="#{bundle.ViewCarroTitle_marca}"/>
+                        <h:outputText value="#{bundle.ViewCarroLabel_modelo}"/>
+                        <h:outputText value="#{carroController.selected.modelo}" title="#{bundle.ViewCarroTitle_modelo}"/>
+                        <h:outputText value="#{bundle.ViewCarroLabel_id}"/>
+                        <h:outputText value="#{carroController.selected.id}" title="#{bundle.ViewCarroTitle_id}"/>
+                    </p:panelGrid>
+                    <p:commandButton value="#{bundle.Close}" onclick="CarroViewDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>

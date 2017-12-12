@@ -1,0 +1,13 @@
+com\prova\prova\controller\CarroController.class
+com\prova\prova\controller\CarroJpaController.class
+com\prova\prova\controller\exceptions\RollbackFailureException.class
+com\prova\prova\controller\exceptions\NonexistentEntityException.class
+com\prova\prova\controller\CarroController$CarroControllerConverter.class
+com\prova\prova\entity\Carro_.class
+com\prova\prova\controller\exceptions\IllegalOrphanException.class
+com\prova\prova\entity\Carro.class
+com\prova\prova\controller\AbstractFacade.class
+com\prova\prova\controller\util\JsfUtil.class
+com\prova\prova\controller\CarroFacade.class
+com\prova\prova\controller\exceptions\PreexistingEntityException.class
+com\prova\prova\controller\util\JsfUtil$PersistAction.class
